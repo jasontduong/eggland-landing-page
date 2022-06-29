@@ -1,4 +1,6 @@
-# landing page
-completed for https://theodinproject.com/ MOOC.
-only css and html.
+# Landing Page Project
+Completed for https://theodinproject.com/ MOOC.
+
+Only utilized HTML and CSS.
+
 https://jasontduong.github.io/eggland/
