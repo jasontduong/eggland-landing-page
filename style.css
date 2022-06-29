@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 60px;
   background: #ddd5cd;
   color: white;
   display: flex;
@@ -20,6 +20,9 @@ body {
   font-size: 32px;
   border-bottom: 1px solid #302f2f0c;
   flex-shrink: 0.2;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .headercontainer {
@@ -42,25 +45,8 @@ body {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #302f2f0c;
+  font-size: 16px;
 }
-
-ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  font-size: 24px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
 
 .content {
   display: flex;
@@ -101,6 +87,73 @@ a {
   max-height: 100%;
   border-radius: 10%;
 }
+.blocktwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  gap: 40px;
+  color: white;
+  background-color: #ddd5cd;
+}
+
+.blocktwoimages {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  
+}
+.blocktwoimg {
+  width: auto;
+  height: 200px;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.blocktwoicon {
+  border: 1px solid #898989;
+  width: auto;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.blockthree {
+  background-color:#cec1b6;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: center;
+  color: white;
+}
+
+.blockthreequote {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.blockfour {
+  background-color: #88d37f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  padding: 100px;
+  gap: 100px;
+}
+
+.author {
+  text-align: center;
+  padding-right: 50px;
+}
 
 button.signup {
   width: 80px;
@@ -113,19 +166,62 @@ button.signup {
   transition-duration: 0.4s;
 }
 
-button.signup:hover {
+button.signup2 {
+  width: 180px;
+  padding: 4px;
+  color: white;
+  background-color: #73bcd5;
+  border-radius: 15%;
+  border: none;
+  font-size: 40px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
   background-color: #0daee4;
   color: white;
 }
 
-button.signup:active {
+button:active {
   background-color: #0daee4;
   transform: translateY(4px);
   transition-duration: 0.2s;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #73bcd5;
+}
+
+a:active {
+  color: #73bcd5;
+  transform: translateY(4px);
+  transition-duration: 0.2s;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
 }
 
 h3 {
